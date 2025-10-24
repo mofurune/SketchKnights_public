@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &971638927822559675
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00197
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.47103
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      propertyPath: m_Name
+      value: logo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541118569615376773, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 660e98478ba014c489ae17d1f897470a, type: 2}
+    - target: {fileID: 5307447101361939414, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 35a0bc398fc264f48a6cb8bc95db03ad, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4723803234614456259}
+  m_SourcePrefab: {fileID: 100100000, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+--- !u!1 &124585272016053482 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d3b333a95c6f4980b742155b8f28b63, type: 3}
+  m_PrefabInstance: {fileID: 971638927822559675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4723803234614456259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124585272016053482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e708bd67f4ae4381b3615f8af5483bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLocal: 1
+  enablePos: 1
+  posSpeed: 0.5
+  posAmount: 0.05
+  enableRot: 1
+  isRotZOnly: 1
+  rotSpeed: 0.5
+  rotAmount: 3
+  enableScale: 0
+  scaleSpeed: 1
+  scaleAmount: 0.1

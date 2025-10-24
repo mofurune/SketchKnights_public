@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SketchKnights/Scenes/MainScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: eacb7aee0ef80fe42a86bee0d6799b32, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6314a0a292da28e45b811736a7f88e08, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 7ceaa87b4533fa1429356f0277527c86, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: de84cb4e3af506a4582b5f837ce0ea03, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 67773f88c79a92640bcb9670edd2ae90, type: 2}
+  m_UseUCBPForAssetBundles: 0

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7881999830570659359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1271502833410611200}
+  - component: {fileID: 1718446839238912004}
+  m_Layer: 0
+  m_Name: BattleContents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1271502833410611200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7881999830570659359}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1167.9879, y: 0, z: 117.60361}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1718446839238912004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7881999830570659359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d328136b3dc48ec4dabdfca9e7b02ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDebug: 0
+  xrObjectResolver: {fileID: 0}
+  enemyPrefab: {fileID: 311494227085377155, guid: b7d395ff025e50447af3c9ed855a7587, type: 3}
+  battleTime: 60
+  enemyLength: 3.5
+  spawnData:
+  - time: 0
+    angle: 0
+    yOffset: 0
+  - time: 10
+    angle: 30
+    yOffset: 0
+  - time: 10
+    angle: -30
+    yOffset: 0
+  - time: 20
+    angle: 0
+    yOffset: 1.5
+  - time: 20
+    angle: 70
+    yOffset: 0
+  - time: 20
+    angle: -70
+    yOffset: 0
+  - time: 35
+    angle: 0
+    yOffset: 0
+  - time: 30
+    angle: 90
+    yOffset: 0
+  - time: 30
+    angle: 180
+    yOffset: 0
+  - time: 35
+    angle: 20
+    yOffset: 0
+  - time: 40
+    angle: 80
+    yOffset: 0
+  - time: 45
+    angle: 140
+    yOffset: 0
+  - time: 45
+    angle: 320
+    yOffset: 0
+  - time: 50
+    angle: 20
+    yOffset: 1
+  - time: 50
+    angle: 200
+    yOffset: 1
+  - time: 55
+    angle: 260
+    yOffset: 0
+  - time: 55
+    angle: 320
+    yOffset: 0
+  - time: 55
+    angle: 110
+    yOffset: 2
